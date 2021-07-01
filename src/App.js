@@ -1,14 +1,12 @@
-import './App.css';
-import JsTransition from './components/JsTransition';
+import "./App.css";
+import JsTransition from "./components/JsTransition";
 function App() {
   return (
     <div className="App">
       <div>
         <h2>Js transition.</h2>
-        <JsTransition/>
+        <JsTransition />
       </div>
-
-
     </div>
   );
 }
