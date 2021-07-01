@@ -1,7 +1,7 @@
-import React from "react";
+import React, { memo } from "react";
 import randomHexColor from "../../utils/randomHexColor";
 
-export default function BoxComponent() {
+export default memo(function BoxComponent() {
   return (
     <div
       style={{
@@ -11,4 +11,4 @@ export default function BoxComponent() {
       }}
     ></div>
   );
-}
+})
