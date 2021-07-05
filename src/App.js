@@ -2,6 +2,7 @@ import "./App.css";
 import JsTransition from "./components/JsTransition";
 import CSSTransitionComp from "./components/CSSTransitionComp";
 import SwitchTransitionComp from "./components/SwitchTransitionComp";
+import TransitionGroupComponent from "./components/TransitionGroupComponent";
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,8 @@ function App() {
         <CSSTransitionComp />
         <h2>Switch transition.</h2>
         <SwitchTransitionComp />
+        <h2>Transition Group.</h2>
+        <TransitionGroupComponent />
       </div>
     </div>
   );
